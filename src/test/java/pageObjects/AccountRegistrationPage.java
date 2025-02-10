@@ -2,6 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
 public class AccountRegistrationPage extends BasePage{
@@ -15,34 +16,67 @@ public class AccountRegistrationPage extends BasePage{
 
 	//Locators
 
-	@FindBy(xpath="//input[@id='input-firstname']") WebElement txtfirstName;
-	@FindBy(xpath="//input[@id='input-lastname']") WebElement txtlastName;
-	@FindBy(xpath="//input[@id='input-email']") WebElement txteMail;
-	@FindBy(xpath="//input[@id='input-telephone']") WebElement txtPhone;
-	@FindBy(xpath="//input[@id='input-password']") WebElement txtPassword;
-	@FindBy(xpath="//input[@id='input-confirm']") WebElement txtRePassword;
-	@FindBy(xpath="//input[@name='agree']") WebElement chkAgree;
-	@FindBy(xpath="//input[@value='Continue']") WebElement btnContinue;
-	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement msgConfirmation;
-	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement errEmailAlready;
+	@FindBy(xpath="//input[@id='input-firstname']") 
+	@CacheLookup
+	WebElement txtfirstName;
+	
+	@FindBy(xpath="//input[@id='input-lastname']") 
+	@CacheLookup
+	WebElement txtlastName;
+	
+	@FindBy(xpath="//input[@id='input-email']") 
+	@CacheLookup
+	WebElement txteMail;
+	
+	@FindBy(xpath="//input[@id='input-telephone']") 
+	@CacheLookup
+	WebElement txtPhone;
+	
+	@FindBy(xpath="//input[@id='input-password']") 
+	@CacheLookup
+	WebElement txtPassword;
+	
+	@FindBy(xpath="//input[@id='input-confirm']") 
+	@CacheLookup
+	WebElement txtRePassword;
+	
+	@FindBy(xpath="//input[@name='agree']") 
+	@CacheLookup
+	WebElement chkAgree;
+	
+	@FindBy(xpath="//input[@value='Continue']") 
+	@CacheLookup
+	WebElement btnContinue;
+	
+	@FindBy(xpath="//div[@id='content']/h1") 
+	@CacheLookup
+	WebElement msgConfirmation;
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") 
+	@CacheLookup
+	WebElement errEmailAlready;
 	
 	//Methods
 	public void enterFirstName(String fname)
 	{
 		txtfirstName.sendKeys(fname);
 	}
+	
 	public void enterLastName(String lname)
 	{
 		txtlastName.sendKeys(lname);
 	}
+	
 	public void enterEmail(String email)
 	{
 		 txteMail.sendKeys(email);
 	}
+	
 	public void enterPhone(String phn)
 	{
 		txtPhone.sendKeys(phn);
 	}
+	
 	public void enterPassword(String pwd)
 	{
 		txtPassword.sendKeys(pwd);
@@ -51,10 +85,12 @@ public class AccountRegistrationPage extends BasePage{
 	{
 		txtRePassword.sendKeys(pwd);
 	}
+	
 	public void clickAgree()
 	{
 		 chkAgree.click();
 	}
+	
 	public void clickContinue()
 	{
 		btnContinue.click();
@@ -69,6 +105,7 @@ public class AccountRegistrationPage extends BasePage{
 			return "false";
 		}
 	}	
+	
 	public String getErrEmailAlready()
 	{
 		try {

@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Grouping_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Grouping_Suite" title="testCases.TC001_AccountRegistrationTest" class="method navigator-link" hash-for-method="verifyAccountRegistration">verifyAccountRegistration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Grouping_Suite" title="testCases.TC002_LoginVerification" class="method navigator-link" hash-for-method="loginVerification">loginVerification</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Grouping_Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Grouping_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC001_AccountRegistrationTest</span>
+              <span class="class-name">testCases.TC002_LoginVerification</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAccountRegistration">
-                  </a> <!-- verifyAccountRegistration -->
-                  <span class="method-name">verifyAccountRegistration</span>
+                  <a name="loginVerification">
+                  </a> <!-- loginVerification -->
+                  <span class="method-name">loginVerification</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,7 +142,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Grouping Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Grouping Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
       &lt;include name=&quot;Sanity&quot;/&gt;
@@ -156,11 +156,11 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;window&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC001_AccountRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC002_LoginVerification&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Grouping Suite --&gt;
@@ -188,15 +188,15 @@
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyAccountRegistration</span>
+                <span class="method-in-group-name">loginVerification</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">Regresssion</span>
+              <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyAccountRegistration</span>
+                <span class="method-in-group-name">loginVerification</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -204,7 +204,7 @@
               <span class="test-group-name">Sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verifyAccountRegistration</span>
+                <span class="method-in-group-name">loginVerification</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -226,14 +226,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyAccountRegistration')
-data.setCell(0, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(0, 3, 3216);
+data.setCell(0, 1, 'loginVerification')
+data.setCell(0, 2, 'testCases.TC002_LoginVerification')
+data.setCell(0, 3, 2420);
 window.suiteTableData['Grouping_Suite']= { tableData: data, tableDiv: 'times-div-Grouping_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Grouping_Suite">
               </div> <!-- times-div-Grouping_Suite -->
             </div> <!-- times-div -->
@@ -259,18 +259,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_AccountRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC002_LoginVerification</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(window, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verifyAccountRegistration</span>
-                <span class="method-start">4218 ms</span>
+                <span class="method-name">loginVerification</span>
+                <span class="method-start">13774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7456 ms</span>
+                <span class="method-start">16230 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

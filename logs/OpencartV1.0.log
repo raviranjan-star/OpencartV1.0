@@ -10,3 +10,11 @@
 2025-02-10 13:08:01,054(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Ended TC001 Account Registration Test case *****
 2025-02-10 13:16:14,552(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Starting TC001 Account Registration Test case *****
 2025-02-10 13:16:17,718(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Ended TC001 Account Registration Test case *****
+2025-02-10 13:24:14,065(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Starting TC001 Account Registration Test case *****
+2025-02-10 13:24:17,240(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Ended TC001 Account Registration Test case *****
+2025-02-10 13:33:17,668(HH:mm:ss.SSS} [main] INFO  org.testng.internal.Utils [TestNG] Running:
+  C:\Users\Ravi\eclipse-workspace\OpencartV1.0\Master.xml
+
+2025-02-10 13:33:31,879(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Verification Started*****
+2025-02-10 13:33:31,929(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification HomePage Object is Created
+2025-02-10 13:33:33,701(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Successful *****

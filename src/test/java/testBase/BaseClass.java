@@ -36,12 +36,12 @@ public class BaseClass {
 		p.load(file);
 		
 		logger =LogManager.getLogger(this.getClass());
-		
+		logger.info("***** Browser Started *****");
 		switch(br.toLowerCase())
 		{
-		case "chrome":driver =new ChromeDriver();break;
-		case "edge":driver =new EdgeDriver();break;
-		case "firefox":driver =new FirefoxDriver();break;
+		case "chrome":driver =new ChromeDriver();logger.info("***** Chrome is Selected *****");break;
+		case "edge":driver =new EdgeDriver();logger.info("***** Edge is Selected *****");break;
+		case "firefox":driver =new FirefoxDriver();logger.info("***** Firefox is Selected *****");break;
 		default:System.out.println("Invallid Browser");return;
 		}
 		
@@ -71,6 +71,7 @@ public class BaseClass {
 	@AfterClass(groups= {"Master","Sanity","Regression"})
 	public void tearDown()
 	{
+		logger.info("***** Browser is Closed *****");
 		driver.quit();
 	}
 	

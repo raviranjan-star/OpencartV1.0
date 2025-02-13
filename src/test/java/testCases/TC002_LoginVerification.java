@@ -16,7 +16,9 @@ public class TC002_LoginVerification extends BaseClass {
 		logger.info("***** Login Verification Started*****");
 		HomePage hp=new HomePage(driver);
 		logger.info("HomePage Object is Created");
+		
 		hp.clickMyAccount();
+		logger.info("Clicked on My Account");
 		hp.clickLogin();
 		
 		LoginPage lp=new LoginPage(driver);

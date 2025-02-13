@@ -1,0 +1,45 @@
+2025-02-13 06:59:24,368(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Successful *****
+2025-02-13 06:59:24,895(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Browser is Closed *****
+2025-02-13 06:59:26,112(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Browser Started *****
+2025-02-13 06:59:27,683(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Chrome is Selected *****
+2025-02-13 06:59:28,508(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Starting TC001 Account Registration Test case *****
+2025-02-13 06:59:33,932(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Ended TC001 Account Registration Test case *****
+2025-02-13 06:59:33,936(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Browser is Closed *****
+2025-02-13 06:59:34,234(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Browser Started *****
+2025-02-13 06:59:35,742(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Chrome is Selected *****
+2025-02-13 06:59:36,592(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Verification Started*****
+2025-02-13 06:59:36,600(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification HomePage Object is Created
+2025-02-13 06:59:36,737(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification Clicked on My Account
+2025-02-13 06:59:39,019(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Successful *****
+2025-02-13 06:59:39,637(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Browser is Closed *****
+2025-02-13 07:02:30,299(HH:mm:ss.SSS} [main] INFO  org.testng.internal.Utils [TestNG] Running:
+  C:\Users\Ravi\eclipse-workspace\OpencartV1.0\Master.xml
+
+2025-02-13 07:02:30,703(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Browser Started *****
+2025-02-13 07:02:32,887(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Chrome is Selected *****
+2025-02-13 07:02:35,348(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Starting TC001 Account Registration Test case *****
+2025-02-13 07:02:40,301(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest *****Ended TC001 Account Registration Test case *****
+2025-02-13 07:02:40,326(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Browser is Closed *****
+2025-02-13 07:02:40,608(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Browser Started *****
+2025-02-13 07:02:42,021(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Chrome is Selected *****
+2025-02-13 07:02:42,913(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Verification Started*****
+2025-02-13 07:02:42,917(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification HomePage Object is Created
+2025-02-13 07:02:43,065(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification Clicked on My Account
+2025-02-13 07:02:45,684(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Login Successful *****
+2025-02-13 07:02:46,278(HH:mm:ss.SSS} [main] INFO  testCases.TC002_LoginVerification ***** Browser is Closed *****
+2025-02-13 07:02:46,547(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Browser Started *****
+2025-02-13 07:02:48,037(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Chrome is Selected *****
+2025-02-13 07:02:51,305(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Started*****
+2025-02-13 07:02:56,504(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Test Passed invalid*****
+2025-02-13 07:02:56,505(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Finished *****
+2025-02-13 07:02:56,510(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Started*****
+2025-02-13 07:02:59,881(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Test Passed invalid*****
+2025-02-13 07:02:59,882(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Finished *****
+2025-02-13 07:02:59,889(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Started*****
+2025-02-13 07:03:04,534(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Test Passed invalid*****
+2025-02-13 07:03:04,534(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Finished *****
+2025-02-13 07:03:04,550(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Started*****
+2025-02-13 07:03:06,731(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Test Passed valid is found*****
+2025-02-13 07:03:07,499(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** TC003_Test Finished *****
+2025-02-13 07:03:07,512(HH:mm:ss.SSS} [main] INFO  testCases.TC003_LoginDDT ***** Browser is Closed *****
+2025-02-13 07:07:29,397(HH:mm:ss.SSS} [main] INFO  testCases.TC001_AccountRegistrationTest ***** Browser Started *****
